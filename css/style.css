@@ -1,0 +1,12 @@
+/**My CSS**/
+header {
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+    text-justify: auto;
+    margin: auto;
+    margin-left: 22%;
+}
+
