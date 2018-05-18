@@ -6,4 +6,28 @@
     transform: scale(1.01);
     opacity: 1;
 }
+.fondCourses {
+    background-image: url(../img/backgroundBateau.jpg); 
+    background-repeat:repeat; 
+    background-position:100% 50%;
+    background-attachment:fixed;
+}
+.fondAccueil {
+    background-image: url(../img/background.png); 
+    background-repeat:repeat; 
+    background-position:100% 50%;
+    background-attachment:fixed;
+}
+.fondBateaux {
+    background-image: url(../img/backgroundCourse.jpg); 
+    background-repeat:repeat; 
+    background-position:100% 50%;
+    background-attachment:fixed;
+}
+
+@media screen and (max-width: 640px) {
+    .m-auto-perso{
+        margin : 0 !important;
+        margin-top: 1rem !important;  
+    }
 
